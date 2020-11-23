@@ -1,0 +1,45 @@
+body {
+    background: #185A72;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.assignments {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+
+.assignment {
+    width:30%;
+    padding:10px;
+    margin:10px;
+    margin-bottom: 30px;
+    background:#7EE4F3;
+    border-radius:5px;
+    box-shadow: 5px 10px  #047D8E
+}
+
+.assignment img {
+    width:200px;
+    border: 3px solid rgb(52, 122, 179);
+    margin-right:20px;
+    border-radius:5px;
+    display:block;
+    margin:auto;
+}
+
+
+
+h1 {
+    color:#5ef3d3;
+    text-align:center;
+}
+
+a {
+    text-decoration:none;
+    color:#047D8E;
+}
+
+.assignment a:hover {
+    color: rgb(90, 22, 218);
+}
